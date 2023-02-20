@@ -6,7 +6,7 @@ example about [variational autoencoders][vae]
 on MNIST to play with making inferences about the autoencoder's latent variables.
 
 Austen suggested feeding the autoencoder random data to see how it affects
-the distribution of latent samples.
+the distribution of latent samples, but I haven't tried this yet.
 
 We also discussed setting up the problem for public time-series datasets
 with known results.
@@ -17,5 +17,20 @@ anomaly detection [benchmark suite][nab].
 [vae]: https://pyro.ai/examples/vae.html
 [ecg]: https://curiousily.com/posts/time-series-anomaly-detection-using-lstm-autoencoder-with-pytorch-in-python/
 [nab]: https://github.com/numenta/NAB
+
+
+### [Week of 2023-02-20](/2023-02-20/)
+#### Monday:
+Set up this repository. Found another example in the pyro documentation that I
+want to run through, this one about [forecasting time series data][forecast]. It might
+be a good springboard to build from. Would be interesting to compare results with
+the benchmarks/tutorials above.
+
+Also, there are lots and lots of academic papers and online tutorials about
+the topic of time-series anomaly detection in a variety of domains. 
+I've started a reference list in Zotero.
+
+[forecast]: https://pyro.ai/examples/forecasting_i.html
+
 
 
