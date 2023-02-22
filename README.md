@@ -32,5 +32,7 @@ I've started a reference list in Zotero.
 
 [forecast]: https://pyro.ai/examples/forecasting_i.html
 
-
-
+#### Tuesday:
+Read the [forecast][] tutorial a little more. There's a lot of complexity there so for the moment I'll
+stick with SVI for a time-series recurrent autoencoder.
+Started a jupyter notebook [here](/2023-02-02/time-series-vae.ipynb).
