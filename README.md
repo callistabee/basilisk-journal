@@ -35,4 +35,4 @@ I've started a reference list in Zotero.
 #### Tuesday:
 Read the [forecast][] tutorial a little more. There's a lot of complexity there so for the moment I'll
 stick with SVI for a time-series recurrent autoencoder.
-Started a jupyter notebook [here](/2023-02-02/time-series-vae.ipynb).
+Started a jupyter notebook [here](/2023-02-20/time-series-vae.ipynb).
