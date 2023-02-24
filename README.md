@@ -36,3 +36,12 @@ I've started a reference list in Zotero.
 Read the [forecast][] tutorial a little more. There's a lot of complexity there so for the moment I'll
 stick with SVI for a time-series recurrent autoencoder.
 Started a jupyter notebook [here](/2023-02-20/time-series-vae.ipynb).
+
+#### Wednesday:
+No commit today, too much work in progress. Trying to train a recurrent
+autoencoder on audio data but it's very tricky. Will try more tomorrow.
+
+#### Thursday/Friday:
+Got a recurrent encoder/decoder setup akin to the one in the [ecg tutorial][ecg] training on audio data,
+but it's not tuned right and just kind of spits out weird noise.
+Maybe trying audio was a bit overly ambitious, but I still want to try a variational inference setup with pyro.
