@@ -16,6 +16,7 @@
   | [2023-W18][] | training GDN on [WADI][wadi]             |
   | [2023-W19][] | GDN model exploration                    |
   | [2023-W20][] | GDN walkthrough presentation             |
+  | [2023-W21][] | stochastic block model exploration       |
 
 [2023-W07]: 2023-W07
 [2023-W08]: 2023-W08
@@ -26,6 +27,7 @@
 [2023-W18]: 2023-W18
 [2023-W19]: 2023-W19
 [2023-W20]: 2023-W20
+[2023-W21]: 2023-W21
 
 [vae]: https://pyro.ai/examples/vae.html
 [rts-gmlc]: https://github.com/GridMod/RTS-GMLC
