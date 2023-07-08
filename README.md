@@ -17,6 +17,12 @@
   | [2023-W19][] | GDN model exploration                    |
   | [2023-W20][] | GDN walkthrough presentation             |
   | [2023-W21][] | stochastic block model exploration       |
+  |  2023-W22    | literature survey: [SBM-Transformer]     |
+  |  2023-W23    | literature survey                        |
+  |  2023-W24    | traveling / reading                      |
+  |  2023-W25    | traveling / writing                      |
+  |  2023-W26    | traveling / vacation                     |
+  | [2023-W27][] | pyro/SBM exploration                     |
 
 [2023-W07]: 2023-W07
 [2023-W08]: 2023-W08
@@ -28,6 +34,7 @@
 [2023-W19]: 2023-W19
 [2023-W20]: 2023-W20
 [2023-W21]: 2023-W21
+[2023-W27]: 2023-W27
 
 [vae]: https://pyro.ai/examples/vae.html
 [rts-gmlc]: https://github.com/GridMod/RTS-GMLC
@@ -35,3 +42,4 @@
 [pytorch-geometric]: https://pytorch-geometric.readthedocs.io/en/latest/
 [gdn]: https://github.com/d-ailin/GDN
 [wadi]: https://itrust.sutd.edu.sg/itrust-labs_datasets/
+[SBM-Transformer]: https://proceedings.neurips.cc/paper_files/paper/2022/file/9c93b3cd3bc60c0fe7b0c2d74a2da966-Paper-Conference.pdf
