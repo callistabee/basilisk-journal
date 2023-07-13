@@ -23,6 +23,7 @@
   |  2023-W25    | traveling / writing                      |
   |  2023-W26    | traveling / vacation                     |
   | [2023-W27][] | pyro/SBM exploration                     |
+  | [2023-W28][] | pyro/SBM implementation, intern prep     |
 
 [2023-W07]: 2023-W07
 [2023-W08]: 2023-W08
@@ -35,6 +36,7 @@
 [2023-W20]: 2023-W20
 [2023-W21]: 2023-W21
 [2023-W27]: 2023-W27
+[2023-W28]: 2023-W28
 
 [vae]: https://pyro.ai/examples/vae.html
 [rts-gmlc]: https://github.com/GridMod/RTS-GMLC
