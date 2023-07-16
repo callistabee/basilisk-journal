@@ -1,4 +1,4 @@
-### Stochastic Block Models for Cyber-Physical Systems
+## Stochastic Block Models for Cyber-Physical Systems
 
 A cyber-physical system (CPS), like a power plant or water treatment plant, can be modeled as a set of networked sensors whose readings are correlated at any given point in time. To detect and localize anomalies, we can observe these sensor readings (and the correlations between them) and then look out for observations that depart from our expectations.
 
@@ -16,3 +16,16 @@ Our stretch goal is to reimplement [GDN][gdn] using SBM+SVI, then train and test
 [gdn]: http://arxiv.org/pdf/2106.06947.pdf
 [wadi]: https://itrust.sutd.edu.sg/itrust-labs_datasets/
 [pyg]: https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html
+
+### [Zachary's Karate Club][karate]
+
+In 1977, an anthropologist named Wayne W. Zachary studied a 34-member karate club that split up during a conflict. By observing the relationships among the members, he was able to accurately predict which side of the schism they fell on. His dataset consists of a graph with 34 nodes, one for each member, and 78 undirected edges, one for each observed social relationship.
+
+Zachary used a maximum-flow algorithm to predict the community structure, but we will use a stochastic block model with a 34x2 membership matrix (where each row represents the probabilities of a member belonging to each block) and a 2x2 block connection matrix (where each row represents the probabilities of a node within a block connecting to a node in the same block, or to a node in another block).
+
+#### Exercises
+[Pyro][pyro] has extensive documentation including a [detailed tutorial](https://pyro.ai/examples/intro_long.html). Read this tutorial before proceeding!
+
+1. Using our SBM implementation, write a simple pyro model and guide to infer the membership and block matrices with maximum-likelihood estimation, and check the results against the ground truth.
+2. Reparameterize the model to perform Bayesian regression. Try out different priors and compare the results.
+3. Visualize the uncertainty in the Bayesian model's parameter estimates.
