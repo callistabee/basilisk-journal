@@ -24,6 +24,7 @@
   |  2023-W26    | traveling / vacation                     |
   | [2023-W27][] | pyro/SBM exploration                     |
   | [2023-W28][] | pyro/SBM implementation, intern prep     |
+  | [2023-W29][] | [Karate Club][karate] modeling           |
 
 [2023-W07]: 2023-W07
 [2023-W08]: 2023-W08
@@ -37,6 +38,7 @@
 [2023-W21]: 2023-W21
 [2023-W27]: 2023-W27
 [2023-W28]: 2023-W28
+[2023-W29]: 2023-W29
 
 [vae]: https://pyro.ai/examples/vae.html
 [rts-gmlc]: https://github.com/GridMod/RTS-GMLC
@@ -45,3 +47,4 @@
 [gdn]: https://github.com/d-ailin/GDN
 [wadi]: https://itrust.sutd.edu.sg/itrust-labs_datasets/
 [SBM-Transformer]: https://proceedings.neurips.cc/paper_files/paper/2022/file/9c93b3cd3bc60c0fe7b0c2d74a2da966-Paper-Conference.pdf
+[karate]: https://en.wikipedia.org/wiki/Zachary's_karate_club
